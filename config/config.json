@@ -1,0 +1,26 @@
+{
+  "production": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "development": {
+    "username": "root",
+    "password": "Otis13jhawkhalo",
+    "database": "message_db",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "Otis13jhawkhalo",
+    "database": "message",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
+  }
+}

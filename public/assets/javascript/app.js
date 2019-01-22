@@ -25,7 +25,7 @@ $(document).ready(function () {
         // Submits a new post and brings user to home page upon completion
         function submitContact(Contact) {
 
-            $.post("/index", Contact, function () {
+            $.post("/", Contact, function () {
 
                 $("#bestFriendModal").modal("toggle");
             })
@@ -47,8 +47,8 @@ $(document).ready(function () {
         });
     }
 
-    // $("#modal-btn").on("click", function (event) {
-    //     event.preventDefault();
-    //     $('#contact-form').find('input, textarea').val('');
-    // })
+    $("#modal-btn").on("click", function (event) {
+        event.preventDefault();
+        $('#contact-form').find('input, textarea').val('');
+    })
 });

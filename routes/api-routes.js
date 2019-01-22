@@ -12,7 +12,7 @@ module.exports = function (app) {
   app.use(bodyParser.json());
 
 
-  app.post('/index', function (req, res) {
+  app.post('/', function (req, res) {
     var output = `
     <p>You have a new contact request</p>
     <h3>Contact Details</h3>

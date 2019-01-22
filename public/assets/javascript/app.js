@@ -47,8 +47,8 @@ $(document).ready(function () {
         });
     }
 
-    $("#modal-btn").on("click", function (event) {
-        event.preventDefault();
-        $('#contact-form').find('input, textarea').val('');
-    })
+    // $("#modal-btn").on("click", function (event) {
+    //     event.preventDefault();
+    //     $('#contact-form').find('input, textarea').val('');
+    // })
 });

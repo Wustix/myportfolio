@@ -11,9 +11,9 @@ $(document).ready(function () {
         event.preventDefault();
 
         var newMessage = {
-            name: contactName.val(),
-            email: contactEmail.val(),
-            message: contactMessage.val()
+            name: contactName.val().trim(),
+            email: contactEmail.val().trim(),
+            message: contactMessage.val().trim()
         };
 
         submitMessage(newMessage);
@@ -49,6 +49,6 @@ $(document).ready(function () {
 
     $("#modal-btn").on("click", function (event) {
         event.preventDefault();
-        window.location.href = "/contact";
+        $('#contact-form').find('input, textarea').val('');
     })
 });

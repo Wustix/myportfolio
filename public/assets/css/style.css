@@ -19,6 +19,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.75;
   }
 
   /* First image (Logo. Full height) */
@@ -29,13 +30,15 @@
   
   /* Second image (Portfolio) */
   .bgimg-2 {
-    background-image: url(../images/bgimg-2.jpg);
+    background-image: url(../images/bgimg-5.png);
+    position: relative;
     min-height: 400px;
   }
   
   /* Third image (Contact) */
   .bgimg-3 {
     background-image: url(../images/bgimg-3.jpg);
+    position: relative;
     min-height: 400px;
   }
 
@@ -58,6 +61,26 @@ a:hover {
     color: white;
 }
 
+/*----- Container Headers -----*/
+
+#mid-header, #btm-header {
+    text-align: center;
+}
+
+#header-text {
+    color: white;
+    font-size: 36px;
+    opacity: .75;
+    letter-spacing: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
 /*
 ----- Homepage Styling -----
 */
@@ -73,7 +96,6 @@ a:hover {
     color: white;
     font-size: 24px;
     line-height: 1.6;
-    margin-top: 25px;
     padding-top: 25px;
     margin-bottom: 200px;
     
@@ -110,8 +132,8 @@ i {
 
 .column {
     flex: 45%;
-    background-color: rgba(0,0,0,.65);
-    margin: 20px;
+    /* background-color: rgba(0,0,0,.65); */
+    margin: 0px 20px 20px 20px;
 }
 
 #card-summary {

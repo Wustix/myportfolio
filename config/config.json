@@ -1,9 +1,9 @@
 {
   "production": {
-    "username": "",
-    "password": "",
-    "database": "",
-    "host": "",
+    "username": "gj6gzo6z3lrp5n9b",
+    "password": "s0qdtfpfr5yz406r",
+    "database": "lsriaptikp2gtu49",
+    "host": "l6slz5o3eduzatkw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "port": 3306,
     "dialect": "mysql"
   },

@@ -25,7 +25,7 @@ $(document).ready(function () {
         // Submits a new post and brings user to home page upon completion
         function submitContact(Contact) {
 
-            $.post("/contact", Contact, function () {
+            $.post("/index", Contact, function () {
 
                 $("#bestFriendModal").modal("toggle");
             })

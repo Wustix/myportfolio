@@ -7,14 +7,12 @@
 
   body, html {
     height: 100%;
-    color: #777;
+    /* color: #777; */
     line-height: 1.8;
   }  
-  
-/* Background Style the video: 100% width and height to cover the entire window */
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3 , .bgimg-4 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,6 +36,13 @@
   /* Third image (Contact) */
   .bgimg-3 {
     background-image: url(../images/bgimg-3.jpg);
+    position: relative;
+    min-height: 400px;
+  }
+
+  /* Fourth image (Contact) */
+  .bgimg-4 {
+    background-image: url(../images/bgimg-4.jpg);
     position: relative;
     min-height: 400px;
   }
@@ -76,7 +81,7 @@ a:first-child {
 #header-text {
     color: white;
     font-size: 36px;
-    opacity: .75;
+    /* opacity: .75; */
     letter-spacing: 5px;
     margin: 0;
     position: absolute;
@@ -219,7 +224,12 @@ i {
     color: black;
     border: 2px solid black;
     padding: 3px;
+    margin: 0px 10px 0px 10px;
 }
+
+/* #portlink:first-child {
+    margin-right: 20px;
+} */
 
 .text-block {
     position: absolute;

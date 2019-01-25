@@ -86,7 +86,11 @@ a:first-child {
     /* opacity: .75; */
     letter-spacing: 5px;
     margin: 0;
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     
 }
 
@@ -146,7 +150,11 @@ i {
 .column {
     flex: 45%;
     /* background-color: rgba(0,0,0,.65); */
-    margin: 0px 20px 20px 20px;
+    /* margin: 0px 20px 20px 20px; */
+}
+
+#col-links {
+    flex: 50%;
 }
 
 #card-summary {
@@ -200,6 +208,7 @@ i {
     color: white;
     transform: rotateY(180deg);
     z-index: 1;
+    padding: 0px 10px 0px 10px;
 }
 
 #img-container {
@@ -223,11 +232,9 @@ i {
     border: 2px solid black;
     padding: 3px;
     margin: 0px 10px 0px 10px;
+    /* position: absolute;  */
+    bottom: 10px;
 }
-
-/* #portlink:first-child {
-    margin-right: 20px;
-} */
 
 .text-block {
     position: absolute;
@@ -258,6 +265,14 @@ i {
     text-align: center;
     font-size: 36px;
     padding-bottom: 25px;
+}
+
+#cont-header {
+    color: white;
+    font-size: 36px;
+    /* opacity: .75; */
+    letter-spacing: 5px;
+    margin: 0;
 }
 
 input[type=text], input[type=email], textarea {

@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
+<!-- check this out -->
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon-1.jpg" size="96x96">
+
+    <title>Wes Roehrman</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -17,6 +22,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
 
+
 </head>
 
 <body>
@@ -26,7 +32,7 @@
         <a href="#headshot-contain" class="button" id="btn-links">About</a>
         <a href="#img-container" class="button" id="btn-links">Portfolio</a>
         <a href="#message-cont" class="button" id="btn-links">Contact</a>
-        <a href="resume.html" class="button" id="btn-links">Resume</a>
+        <a href="#resume-body" class="button" id="btn-links">Resume</a>
     </nav>
 
     <div class="bgimg-1">
@@ -559,31 +565,36 @@
     </div>
 
     <div class="bgimg-4">
-        <div class="container" id="btm-header">
-            <span id="header-text">CONTACT</span>
+
+
+        <div class="container" id="message-cont">
+            <div class="container" id="btm-header">
+                <span id="header-text">CONTACT</span>
+            </div>
+            <section id="contact-area">
+                <section id="form">
+                    <form id="contact-form" method="post" role="form">
+                        <fieldset>
+                            <label for="name">Name &#42;</label>
+                            <input id="name" name="name" type="text" placeholder="Your name" required="required">
+                            <label for="email">Email &#42;</label>
+                            <input id="email" name="email" type="email" placeholder="Your email" required="required">
+                            <label for="message">Message &#42;</label>
+                            <textarea id="message" name="message" placeholder="Enter your message here" rows="8"
+                                required="required"></textarea>
+                            <div class="text-center">
+                                <button class="btn btn-primary btn-lg" type="submit" id="sub-btn">
+                                    <i class="fas fa-envelope"></i>Submit</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
+            </section>
         </div>
+
     </div>
 
-    <div class="container" id="message-cont">
-        <section id="contact-area">
-            <section id="form">
-                <form id="contact-form" method="post" role="form">
-                    <fieldset>
-                        <label for="name">Name &#42;</label>
-                        <input id="name" name="name" type="text" placeholder="Your name" required="required">
-                        <label for="email">Email &#42;</label>
-                        <input id="email" name="email" type="email" placeholder="Your email" required="required">
-                        <label for="message">Message &#42;</label>
-                        <textarea id="message" name="message" placeholder="Enter your message here" rows="8" required="required"></textarea>
-                        <div class="text-center">
-                            <button class="btn btn-primary btn-lg" type="submit" id="sub-btn">
-                                <i class="fas fa-envelope"></i>Submit</button>
-                        </div>
-                    </fieldset>
-                </form>
-            </section>
-        </section>
-    </div>
+
 
     <!-- Modal after survey completion -->
     <div id="bestFriendModal" class="modal fade" role="dialog">
@@ -601,7 +612,7 @@
             </div>
         </div>
     </div>
-    </div>
+
 
     <!-- Modal after survey completion -->
     <div id="lastFriendModal" class="modal fade" role="dialog">
@@ -619,7 +630,7 @@
             </div>
         </div>
     </div>
-    </div>
+
 
 
 

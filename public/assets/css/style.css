@@ -1,15 +1,13 @@
- /* 
-===== General Styling =====
- */
+ /*===== General Styling =====*/
 * {
     box-sizing: border-box;
-  }
+}
 
-  body, html {
+body, html {
     height: 100%;
     /* color: #777; */
     line-height: 1.8;
-  }
+}
   
   
 
@@ -20,38 +18,36 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.75;
-  }
+}
 
-  /* First image (Logo. Full height) */
+/* First image (Logo. Full height) */
 .bgimg-1 {
     background-image: url(../images/bgimg-1.jpg);
     min-height: 100%;
-  }
+}
   
-  /* Second image (Portfolio) */
-  .bgimg-2 {
+/* Second image (Portfolio) */
+.bgimg-2 {
     background-image: url(../images/bgimg-5.png);
     position: relative;
     min-height: 400px;
-  }
+}
   
-  /* Third image (Contact) */
-  .bgimg-3 {
+/* Third image (Contact) */
+.bgimg-3 {
     background-image: url(../images/bgimg-3.jpg);
     position: relative;
     min-height: 400px;
-  }
+}
 
-  /* Fourth image (Contact) */
-  .bgimg-4 {
+/* Fourth image (Contact) */
+.bgimg-4 {
     background-image: url(../images/bgimg-4.jpg);
     position: relative;
     min-height: 1200px;
-  }
+}
 
-  /* 
-  ===== Navbar Styling =====
-  */
+/* ===== Navbar Styling =====*/
 
 a {
     color: gray;
@@ -66,11 +62,17 @@ a:first-child {
 
 .button:hover {
     /* color: black; */
-    background-color: black;
+    background-color: lightgray;
 }
 
 .navbar {
-    padding: 0;
+    padding: 0;   
+}
+
+#btn-links {
+    font-weight: 900;
+    color: rgba(048,048,048,1);
+    
 }
 
 /*----- Container Headers -----*/
@@ -90,13 +92,10 @@ a:first-child {
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%);   
 }
 
-/*
------ Homepage Styling -----
-*/
+/*----- Homepage Styling -----*/
 
 #about {
     text-align: center;
@@ -114,8 +113,7 @@ a:first-child {
     font-size: 24px;
     line-height: 1.6;
     padding-top: 25px;
-    margin-bottom: 200px;
-    
+    margin-bottom: 200px;   
 }
 
 #icon-grid, #social-links {
@@ -139,8 +137,7 @@ i {
     margin-left: auto;
     margin-top: 50px;
     animation-delay: .75s;
-    animation-iteration-count: 1;
-    
+    animation-iteration-count: 1;   
 }
 
 /*
@@ -149,12 +146,10 @@ i {
 
 .column {
     flex: 45%;
-    /* background-color: rgba(0,0,0,.65); */
-    /* margin: 0px 20px 20px 20px; */
 }
 
 #col-links {
-    flex: 50%;
+    padding-right: 20%;
 }
 
 #card-summary {
@@ -230,9 +225,8 @@ i {
 #portlink {
     color: black;
     border: 2px solid black;
-    padding: 3px;
-    margin: 0px 10px 0px 10px;
-    /* position: absolute;  */
+    padding: 3px;  
+    position: fixed; 
     bottom: 10px;
 }
 
@@ -290,8 +284,7 @@ input[type=submit] {
 } 
 
 #message-cont {
-    max-width: 100%;
-    
+    max-width: 100%; 
     background-color: rgba(0,0,0,.95);
     margin-top: 50px;
     padding-top: 25px;
@@ -313,8 +306,7 @@ input[type=submit] {
 
 #links {
     font-size: 16px;
-    color: dodgerblue;
-  
+    color: dodgerblue; 
 }
 
 h1 {
@@ -353,7 +345,6 @@ li {
 
 #modal-head, .modal-body {
     text-align: center;
-
 }
 
 /*----- Footer -----*/

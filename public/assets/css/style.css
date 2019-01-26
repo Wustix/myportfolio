@@ -116,8 +116,12 @@ a:first-child {
     margin-bottom: 200px;   
 }
 
-#icon-grid, #social-links {
+#icon-grid {
     text-align: center;
+}
+
+#icon-img {
+    padding: 0px 5px 0px 0px;
 }
 
 i {
@@ -138,6 +142,11 @@ i {
     margin-top: 50px;
     animation-delay: .75s;
     animation-iteration-count: 1;   
+}
+
+#span-grid {
+    max-width: 100%;
+    margin: 0;
 }
 
 /*

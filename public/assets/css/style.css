@@ -115,7 +115,7 @@ a:first-child {
 #headshot-contain {
     max-width: 100%;
     margin: 0;
-    background-color: rgba(136,136,136);
+    background-color: rgba(070,130,180, .8);
     color: white;
     font-size: 24px;
     line-height: 1.6;
@@ -133,10 +133,6 @@ a:first-child {
 
 i {
     padding-right: 10px;
-}
-
-#linkedin-link {
-    color: white;
 }
 
 #profile-pic {
@@ -384,4 +380,14 @@ li {
     width: 150px;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
+}
+
+#linkedin-link {
+    margin-left: 10px;
+    color: white;
+}
+
+#social-links, #social-linked {
+    text-align: center;
+    color: white;
 }

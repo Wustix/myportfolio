@@ -20,16 +20,18 @@
 
 <body>
 
-    <nav class="navbar fixed-top navbar-light bg-light d-flex justify-content-start" id="page-start">
-        <a href="" class="button" id="btn-links">Home</a>
-        <a href="#headshot-contain" class="button" id="btn-links">About</a>
-        <a href="#img-container" class="button" id="btn-links">Portfolio</a>
-        <a href="#message-cont" class="button" id="btn-links">Contact</a>
-        <a href="#resume-body" class="button" id="btn-links">Resume</a>
-    </nav>
+    <div class="fixed-top">
+        <div class="navbar d-flex justify-content-start" id="page-start">
+            <a href="" class="button" id="btn-links">Home</a>
+            <a href="#headshot-contain" class="button" id="btn-links">About</a>
+            <a href="#img-container" class="button" id="btn-links">Portfolio</a>
+            <a href="#message-cont" class="button" id="btn-links">Contact</a>
+            <a href="#resume-body" class="button" id="btn-links">Resume</a>
+        </div>
+    </div>
 
     <div class="bgimg-1">
-        <div class="container" id="top-header">
+        <div class="container " id="top-header">
             <span id="open-text">WES ROEHRMAN PORTFOLIO PAGE</span>
         </div>
     </div>
@@ -67,21 +69,13 @@
                 <a><img src="assets/images/mongo_db.png" style="height: 40px; width: 75px" id="icon-img">MONGO_DB</a>
                 <a><img src="assets/images/jquery.png" style="height: 40px; width: 50px" id="icon-img">JQUERY</a>
             </div>
-            <!-- <i class="fab fa-js-square fa-2x"></i><i class="fab fa-css3-alt fa-2x"></i><i class="fab fa-html5 fa-2x"></i><i
-                class="fab fa-react fa-3x"></i>
-            <i class="fab fa-node fa-2x"></i><i class="fas fa-mobile-alt fa-2x"></i><i class="fas fa-database fa-2x"></i><i
-                class="fab fa-angular fa-2x"></i> -->
         </div>
-
-
-
     </div>
 
     <div class="bgimg-2">
         <div class="container" id="mid-header">
             <span id="header-text">PORTFOLIO</span>
         </div>
-
     </div>
 
     <div class="container" id="img-container">
@@ -102,8 +96,7 @@
                                 Messaging | MongoDB | Google Maps Geo-Location</p>
                             <br>
                             <p id="card-summary">FAST Towing is a Node.js/React client app that allows Users to request
-                                roadside
-                                assistance.
+                                roadside assistance.
                                 Google Geo-Location provides accurate GPS location, while SMS Messaging/Nodemailer
                                 allow for real-time contact with roadside service providers.
                                 Create an account utilizing Passport.js login with MongoDB to be ready for any
@@ -442,9 +435,9 @@
                             </div>
                         </div>
                         <div class="flip-card-back">
-                            <h1>John Doe</h1>
+                            <h1>Mongo News Scraper</h1>
                             <br>
-                            <p>Architect & Engineer</p>
+                            <p>Javascript | Node-Express | Handlebars | Mongoose | Cheerio | MongoDB</p>
                             <br>
                             <p id="card-summary"></p>
                             <br>
@@ -628,22 +621,27 @@
         <h2>EXPERIENCE</h2>
         <br>
         <h3>LeFebvre and Sons</h3>
-        <p> 06/2015-current
+        <p> 06/2015-current<br>
             Experienced Truck Driver
-            Planning schedules to meet customer needs
-            Maximize cost efficiency helping employer curtail wasteful spending
-            Time management to complete tasks on-time consistently
-            Testing of new technology to meet government standards and update business model
-            Multiple Safety awards highlight attention to detail
+            <ul>
+                <li> Planning schedules to meet customer needs</li>
+                <li>Maximize cost efficiency helping employer curtail wasteful spending</li>
+                <li>Time management to complete tasks on-time consistently</li>
+                <li>Testing of new technology to meet government standards and update business model</li>
+                <li>Multiple Safety awards highlight attention to detail</li>
+
+            </ul>
         </p>
         <br>
         <h3>TMC Transportation</h3>
-        <p>Experienced Truck Driver
-            10/2009-06/2015
-            Planning trips and safe movement of various products to meet customer demand
-            Develop cost-cutting measures to offset operating expenses
-            Safety awards
-            Implementation and recommendations for new technology upgrades
+        <p>10/2009-06/2015<br>
+            Experienced Truck Driver
+            <ul>
+                <li>Planning trips and safe movement of various products to meet customer demand</li>
+                <li>Develop cost-cutting measures to offset operating expenses</li>
+                <li>Safety awards</li>
+                <li>Implementation and recommendations for new technology upgrades</li>
+            </ul>
         </p>
         <br>
         <H2>EDUCATION</H2>
@@ -725,26 +723,37 @@
         </div>
     </div>
 
-
-
-
-
     <footer class="footer mt-auto py-3" id="footer">
         <div class="container" id="btn-cont">
             <a href="" class="button" id="totop-btn"><i class="fas fa-arrow-circle-up"></i>To The
                 Top</a>
         </div>
         <br>
-        <br>
         <div class="container" id="social-linked" style="font-weight: 700; font-size: 20px;">
-            <span class="text-muted">SOCIAL MEDIA LINKS</span>
+            <span>SOCIAL MEDIA LINKS</span>
         </div>
         <div class="container" id="social-links">
-            <a href="https://www.linkedin.com/in/wesley-roehrman-996997160/" id="linkedin-link"><i class="fab fa-linkedin"
-                    id="link-fa"></i>LinkedIn</a>
+            <a href="https://www.linkedin.com/in/wesley-roehrman-996997160/" id="linkedin-link" target="_blank"><i
+                    class="fab fa-linkedin"></i>LinkedIn</a>
+            <a href="https://github.com/Wustix" id="linkedin-link" target="_blank"><i class="fab fa-github-square"></i>Github</a>
         </div>
     </footer>
 
+
+    <script>
+
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            var navbar = document.getElementById("page-start");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "navbar bg-white animated slideInDown d-flex justify-content-start";
+            } else {
+                navbar.className = navbar.className.replace("bg-white animated slideInDown", "");
+            }
+        }
+
+    </script>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

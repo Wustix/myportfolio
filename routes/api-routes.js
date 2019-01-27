@@ -29,7 +29,7 @@ module.exports = function (app) {
     let transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: process.env.S3_KEY,  // generated ethereal user
+        user: process.env.S3_KEY,  
         pass: process.env.S3_SECRET
       }
 

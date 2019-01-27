@@ -131,6 +131,8 @@ a:first-child {
 
 #icon-img {
     padding: 0px 15px 0px 0px;
+    height: 40px;
+    width: 70px;
 }
 
 i {
@@ -162,10 +164,6 @@ i {
 
 .column {
     flex: 45%;
-}
-
-#col-links {
-    padding-right: 20%;
 }
 
 #card-summary {
@@ -230,6 +228,7 @@ i {
     /* animation-delay: 0.25s;
     animation-iteration-count: 1; */
     display: flex;
+    width: 100%;
 }
 
 #portfolio-pic {
@@ -240,7 +239,7 @@ i {
 #portlink {
     color: black;
     border: 2px solid black;
-    padding: 3px;  
+    padding: 3px 5px 3px 5px;  
     position: fixed; 
     bottom: 10px;
 }
@@ -303,7 +302,6 @@ input[type=submit] {
     background-color: rgba(0,0,0,.95);
     margin-top: 50px;
     padding-top: 25px;
-    /* margin-bottom: 200px; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -404,9 +402,43 @@ li {
 
 .flip-card, #portfolio-pic {
     height: 550px;
-    width: 350px;
+    width: 375px;
     line-height: 1.3;
 }
 
+#social-links {
+    width: 100%;
+}
 
+#a-grid {
+    letter-spacing: 0;
+    /* padding: 15px 0px 15px 0px; */
+}
+
+#icon-img {
+    padding: 0px 5px 0px 0px;
+    /* margin: 0; */
+    height: 20;
+    width: 100;
+} 
+
+/* #icon-grid {
+    text-align: center;
+    max-width: 100%;
+}
+
+#icon-img {
+    padding: 0px 15px 0px 0px;
+    height: 40px;
+    width: 70px;
+}
+
+#a-grid {
+    max-width: 100%;
+    margin: 0;
+    border: solid 3px black;
+    border-radius: 5px;
+    padding: 15px 0px 15px 0px;
+    letter-spacing: 2px;
+} */
 }

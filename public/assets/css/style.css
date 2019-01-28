@@ -163,11 +163,16 @@ i {
 /*----- Portfolio Page Styling -----*/
 
 .column {
-    flex: 45%;
+    flex: 50%;
 }
 
 #card-summary {
     font-size: 20px;
+}
+
+#card-links {
+    text-align: center;
+    padding: 0;
 }
 
 .flip-card {
@@ -221,7 +226,9 @@ i {
 
 #img-container {
     max-width: 100%;
-    background-color: rgba(80,80,80);    
+    background-color: rgba(80,80,80);
+    padding-right: 0;
+    padding-left: 0;    
 }
 
 .row {
@@ -240,7 +247,7 @@ i {
     color: black;
     border: 2px solid black;
     padding: 3px 5px 3px 5px;  
-    position: fixed; 
+    position: static; 
     bottom: 10px;
 }
 
@@ -417,10 +424,18 @@ li {
 
 #icon-img {
     padding: 0px 5px 0px 0px;
-    /* margin: 0; */
+    margin: 0;
     height: 20;
     width: 100;
-} 
+}
+
+#img-container {
+    padding-right: 0;
+}
+
+.flip-card {
+    text-align: center;
+}
 
 /* #icon-grid {
     text-align: center;

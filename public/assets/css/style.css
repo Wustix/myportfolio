@@ -199,8 +199,13 @@ i {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
   
-.flip-card:hover .flip-card-inner,
-.flip-card.hover .flip-card-inner {
+.flip-card:hover .flip-card-back,
+.flip-card.hover .flip-card-back {
+    transform: rotateY(0deg);
+}
+
+.flip-card:hover .flip-card-front,
+.flip-card.hover .flip-card-front {
     transform: rotateY(180deg);
 }
   

@@ -85,7 +85,7 @@
     <div class="container" id="img-container">
         <div class="row">
             <div class="column" id="column-1">
-                <div class="flip-card" ontouchstart="this.classList.toggle('hover');">
+                <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="./assets/images/fredandsons.png" id="portfolio-pic" alt="Tow-app">
@@ -707,6 +707,14 @@
                 navbar.className = navbar.className.replace("bg-white animated slideInDown", "");
             }
         }
+
+        $(".flip-card").on('touchstart', function () {
+            $(this).toggleClass('flipped');
+        });
+
+        $(".flip-card").on('touchend', function () {
+            $(this).toggleClass('flipped');
+        });
 
     </script>
 

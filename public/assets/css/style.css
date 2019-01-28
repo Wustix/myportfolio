@@ -225,7 +225,7 @@ i {
 .flip-card-back {
     background-color: #2980b9;
     color: white;
-    transform: rotateY(-180deg);
+    transform: rotateY(180deg);
     z-index: 1;
     padding: 0px 10px 0px 10px;
 }

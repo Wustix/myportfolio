@@ -200,12 +200,12 @@ i {
 }
   
 .flip-card:hover .flip-card-inner,
-.flip-card.hover .flip-card-back {
+.flip-card.hover .flip-card-inner {
     transform: rotateY(0deg);
 }
 
 .flip-card:hover .flip-card-inner,
-.flip-card.hover .flip-card-front {
+.flip-card.hover .flip-card-inner {
     transform: rotateY(180deg);
 }
   

@@ -401,59 +401,51 @@ li {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
 
-#profile-pic {
-    width: 350px;
+    #social-links {
+        width: 50%;
+    }
+
+    #icon-img {
+        margin-left: 3%;
+    }
+
 }
 
-.flip-card, #portfolio-pic {
-    height: 550px;
-    width: 375px;
-    line-height: 1.3;
-}
+@media screen and (max-width: 400px) {
 
-#social-links {
-    width: 100%;
-}
+    #profile-pic {
+        width: 350px;
+    }
 
-#a-grid {
-    letter-spacing: 0;
-    /* padding: 15px 0px 15px 0px; */
-}
+    .flip-card, #portfolio-pic {
+        height: 550px;
+        width: 375px;
+        line-height: 1.3;
+    }
 
-#icon-img {
-    padding: 0px 5px 0px 0px;
-    margin: 0;
-    height: 20;
-    width: 100;
-}
+    #social-links {
+        width: 100%;
+    }
 
-#img-container {
-    padding-right: 0;
-}
+    #a-grid {
+        letter-spacing: 0;
+    }
 
-.flip-card {
-    text-align: center;
-}
+    #icon-img {
+        padding: 0px 5px 0px 0px;
+        margin-left: 0;
+        height: 30px;
+        width: 35px;
+    }
 
-/* #icon-grid {
-    text-align: center;
-    max-width: 100%;
-}
+    /* #img-container {
+        padding-right: 0;
+    } */
 
-#icon-img {
-    padding: 0px 15px 0px 0px;
-    height: 40px;
-    width: 70px;
-}
+    .flip-card {
+        text-align: center;
+    }
 
-#a-grid {
-    max-width: 100%;
-    margin: 0;
-    border: solid 3px black;
-    border-radius: 5px;
-    padding: 15px 0px 15px 0px;
-    letter-spacing: 2px;
-} */
 }

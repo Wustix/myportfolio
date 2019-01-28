@@ -204,10 +204,10 @@ i {
     transform: rotateY(180deg);
 }
 
-.flip-card:hover .flip-card-inner,
+/* .flip-card:hover .flip-card-inner,
 .flip-card.hover .flip-card-front {
     transform: rotateY(180deg);
-}
+} */
   
 .flip-card-front, .flip-card-back {
     position: absolute;

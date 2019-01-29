@@ -110,6 +110,14 @@ a:first-child {
     text-align: center;
 
 }
+
+#a-grid {
+    max-width: 100%;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px 
+}
+
 #brand-statement {
     padding: 25px 0px 25px 0px;
 }
@@ -149,15 +157,6 @@ i {
     margin-top: 50px;
     animation-delay: .75s;
     animation-iteration-count: 1;   
-}
-
-#a-grid {
-    max-width: 100%;
-    margin: 0;
-    border: solid 3px black;
-    border-radius: 5px;
-    padding: 15px 0px 15px 0px;
-    letter-spacing: 2px;
 }
 
 /*----- Portfolio Page Styling -----*/
@@ -485,20 +484,12 @@ li {
         width: 100%;
     }
 
-    #a-grid {
-        letter-spacing: 0;
-    }
-
     #icon-img {
         padding: 0px 5px 0px 0px;
         margin-left: 0;
         height: 30px;
         width: 35px;
     }
-
-    /* #img-container {
-        padding-right: 0;
-    } */
 
     .flip-card {
         text-align: center;

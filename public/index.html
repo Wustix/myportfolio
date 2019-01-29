@@ -708,8 +708,8 @@
             }
         }
 
-        $(".flip-card").on("touchstart", function () {
-            $(this).toggleClass("hover");
+        $(".flip-card").on("touchstart click", function () {
+            $(this).classList.toggle("flip");
         });
 
     </script>

@@ -115,11 +115,15 @@ a:first-child {
     max-width: 100%;
     border: 3px solid black;
     border-radius: 5px;
-    padding: 5px 
+    padding: 5px 0px 5px 0px; 
 }
 
 #brand-statement {
     padding: 25px 0px 25px 0px;
+}
+
+.col-sm {
+    padding: 0;
 }
 
 #headshot-contain {
@@ -141,6 +145,10 @@ a:first-child {
     padding: 0px 15px 0px 0px;
     height: 40px;
     width: 70px;
+}
+
+#icon-text {
+    font-size: 16px;
 }
 
 i {

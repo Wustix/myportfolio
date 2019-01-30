@@ -171,6 +171,11 @@ i {
     animation-iteration-count: 1;   
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 /*----- Portfolio Page Styling -----*/
 
 .column {
@@ -491,7 +496,7 @@ li {
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 568px) {
 
     #profile-pic {
         width: 350px;

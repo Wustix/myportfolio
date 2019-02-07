@@ -6,7 +6,14 @@ MyProffesionalPortfolio is my personal webpage hosted on Heroku.  Has a bio, Por
 
 ![portfolio](https://user-images.githubusercontent.com/36867791/52316793-be7f1e80-2982-11e9-9348-395865ccc1c3.png)
 
-# Technologies Used
+# Install
+
+1. Fork this repository, then clone your fork of this repository.
+2. Install dependencies using the ```npm install``` command.
+3. Start the web server using the ```node server.js``` command from the file root. The app will be served at http://localhost:3000/.
+4. Go to http://localhost:3000/ in your browser.
+
+# Dependencies
 
 * HTML
 * Javascript

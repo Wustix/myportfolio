@@ -23,3 +23,7 @@ MyProffesionalPortfolio is my personal webpage hosted on Heroku.  Has a bio, Por
 * MySQL
 * Bootstrap
 * JQuery
+
+# Authors
+
+* Wes Roehrman
